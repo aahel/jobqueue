@@ -1,5 +1,7 @@
 package mq
 
+import "fmt"
+
 type Client struct {
 	bro *BrokerImpl
 }
@@ -11,6 +13,7 @@ func NewClient() *Client {
 }
 
 func (c *Client) SetCapacity(capacity int) {
+	fmt.Println("sdjc")
 	c.bro.setCapacity(capacity)
 }
 

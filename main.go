@@ -12,6 +12,7 @@ var (
 )
 
 func main() {
+	fmt.Println("test")
 	SubscribeTopic()
 }
 
